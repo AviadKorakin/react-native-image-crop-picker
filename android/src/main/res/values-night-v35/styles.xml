@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- force add back app bar via title via theme override -->
+    <style name="ImagePicker.CropTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowTitleStyle">@style/CropTitleStyle</item>
+        <item name="android:windowTitleBackgroundStyle">@style/CropTitleStyleBg</item>
+    </style>
+
+    <!-- hide text in app bar (otherwise app name is shown) -->
+    <style name="CropTitleStyle">
+        <item name="android:textColor">@android:color/transparent</item>
+    </style>
+
+    <!-- set background color of app bar -->
+    <style name="CropTitleStyleBg">
+        <item name="android:background">#1d1b1e</item>
+    </style>
+</resources>
