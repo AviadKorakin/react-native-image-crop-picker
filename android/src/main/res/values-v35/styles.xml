@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- force add back app bar via title via theme override -->
-    <style name="ImagePicker.CropTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="ImagePicker.CropTheme" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="android:windowNoTitle">false</item>
         <item name="android:windowTitleStyle">@style/CropTitleStyle</item>
         <item name="android:windowTitleBackgroundStyle">@style/CropTitleStyleBg</item>

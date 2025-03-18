@@ -1,2 +1,2 @@
-    <style name="ImagePicker.CropTheme" parent="Theme.AppCompat.Light.NoActionBar"/>
+    <style name="ImagePicker.CropTheme" parent="Theme.Material3.DayNight.NoActionBar"/>
     
